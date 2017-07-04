@@ -1,5 +1,6 @@
 # XML-To-JSON-Converter
-Converts XML to JSON. See readme for limitations
+Converts XML to JSON. 
+See below for limitations
 
 This converter does not handle attributes in tags.
 If a tag has any attributes, the whole tag and its contents are discard.
