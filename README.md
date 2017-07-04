@@ -23,6 +23,12 @@ JSON result will be :
     { "item" : "Item 1" }
   }
 }
+/*
+Discarded xml :
+  <tag id="123123">
+    A random block of text
+  </tag>
+*/
 ```
 
 To get js object from xml, use
