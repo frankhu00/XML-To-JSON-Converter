@@ -6,6 +6,7 @@ This converter does not handle attributes in tags.
 If a tag has any attributes, the whole tag and its contents are discard.
 
 Example :
+```xml
 <xml>
   <tag id="123123">
     A random block of text
@@ -14,7 +15,7 @@ Example :
     <item>Item 1</item>
   </record>
 </xml>
-
+```
 JSON result will be :
 { "xml" : { "record" : { "item" : "Item 1"} } }
 
