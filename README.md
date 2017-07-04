@@ -17,8 +17,13 @@ Example :
 </xml>
 ```
 JSON result will be :
-{ "xml" : { "record" : { "item" : "Item 1"} } }
-
+```js
+{ "xml" : 
+  { "record" : 
+    { "item" : "Item 1" }
+  }
+}
+```
 
 To get js object from xml, use
 ```javascript
