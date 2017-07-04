@@ -22,5 +22,5 @@ To get js object from xml, use
 ```javascript
 const xmlConverter = new Converter();
 
-json = xmlConverter.convert(xmlstring);
+json = xmlConverter.convertToJson(xmlstring);
 ```
